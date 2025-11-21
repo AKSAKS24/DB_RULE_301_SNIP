@@ -1,0 +1,12 @@
+[
+    {
+        "pgm_name": "ZDEMO_ARITH",
+        "inc_name": "ZDEMO_ARITH_I01",
+        "type": "PROG",
+        "name": "MAIN",
+        "start_line": 1,
+        "end_line": 999,
+        "code": "DATA lv_total TYPE i.\nDATA lv_tax TYPE i.\nDATA lv_price TYPE i.\nDATA lv_qty TYPE i.\nADD lv_tax TO lv_total.\nSUBTRACT 5 FROM lv_total.\nMULTIPLY lv_price BY lv_qty.\nDIVIDE lv_total BY lv_qty.\nDATA lv_ok TYPE i.\nlv_ok = lv_total + 5.\nADD-CORRESPONDING wa1 TO wa2.",
+        "class_implementation": ""
+    }
+]
